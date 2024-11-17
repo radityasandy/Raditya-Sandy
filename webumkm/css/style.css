@@ -1,0 +1,24 @@
+.card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card {
+    transition: transform 0.2s; /* Menambahkan transisi halus */
+}
+
+.row .card:hover {
+    box-shadow: 2px 2px 5px gray; /* Meningkatkan efek bayangan */
+    transform: scale(1.02);
+}
+
+/* Menyusun row agar kartu sejajar horizontal */
+.product-row {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Mengatur agar kartu terpusat */
+    flex-wrap: wrap; /* Membungkus kartu jika tidak muat dalam satu baris */
+}
+
+.product-card {
+    margin: 10px; /* Jarak antar kartu */
+}
